@@ -27,4 +27,5 @@ Use JavaScript, Plotly, and D3.js, create a gauge chart that displays the weekly
 Use HTML and Bootstrap to customize the webpage for your dashboard.
 
 ## Summary
+The web app was deployed to my GitHub pages: https://lkachury.github.io/Plotly_Belly_Button_Biodiversity/
 
