@@ -36,23 +36,41 @@ Using JavaScript, Plotly, and D3.js, a bubble chart was created that displays th
 - Sets the ```otu_labels``` as the hover-text values
 - Sets the ```sample_values``` as the marker size
 - Sets the ```otu_ids``` as the marker colors
-
+<br /> ![image](https://user-images.githubusercontent.com/108038989/191850499-719eeb9b-2a51-4fa4-b69b-35c25232b004.png)
 
 2. The code for the layout in the ```buildCharts()``` function does the following:
 - Creates a title
 - Creates a label for the x-axis
 - The text for a bubble is shown when hovered over
-
+<br /> ![image](https://user-images.githubusercontent.com/108038989/191850424-81565b85-dc85-4b6a-be71-73066fc986bb.png)
 
 3. When the dashboard is first opened in a browser, ID 940’s data is displayed in the dashboard. All three charts work according to their requirements when a sample is selected from the dropdown menu: 
-<br /> 
+<br /> ![image](https://user-images.githubusercontent.com/108038989/191850640-c601b061-9940-40fc-a64f-45abb6ec96a7.png)
 
 ### Deliverable 3: Create a Gauge Chart 
-Use JavaScript, Plotly, and D3.js, create a gauge chart that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu.
+Using JavaScript, Plotly, and D3.js, a gauge chart was created that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu.
 
+1. The code to build the gauge chart does the following: 
+- Creates a title for the chart.
+- Creates the ranges for the gauge in increments of two, with a different color for each increment.
+- Adds the washing frequency value on the gauge chart.
+- The indicator shows the level for the washing frequency on the gauge.
+- The gauge is added to the dashboard.
+- The gauge fits in the margin of the ```<div>``` element.
+<br /> 
+
+2. When the webpage loads, the bar and bubble chart are working according to the requirements in Deliverable 1 and 2, respectively, and the gauge chart is working according to the requirements listed for this Deliverable:
+<br /> 
 
 ### Deliverable 4: Customize the Dashboard
-Use HTML and Bootstrap to customize the webpage for your dashboard.
+Use HTML and Bootstrap to customize the webpage for the dashboard.
+
+1. The webpage has three customizations: 
+- The first customization 
+- The second customization 
+- The thirds customization 
+
+2. When the dashboard is first opened in a browser, ID 940’s data is displayed in the dashboard, and all three charts are working according to the requirements when a sample is selected from the dropdown menu: 
 
 ## Summary
 The web app was deployed to my GitHub pages: https://lkachury.github.io/Plotly_Belly_Button_Biodiversity/
