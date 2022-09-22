@@ -7,8 +7,25 @@ The partially completed dashboard displays demographic information but now needs
 ## Results
 
 ### Deliverable 1: Create a Horizontal Bar Chart 
-Use JavaScript, Plotly, and D3.js, create a horizontal bar chart to display the top 10 bacterial species (OTUs) when an individual’s ID is selected from the dropdown menu on the webpage. The horizontal bar chart will display the sample_values as the values, the otu_ids as the labels, and the otu_labels as the hover text for the bars on the chart. 
+Using JavaScript, Plotly, and D3.js, a horizontal bar was created chart to display the top 10 bacterial species (OTUs) when an individual’s ID is selected from the dropdown menu on the webpage. The horizontal bar chart displays the ```sample_values``` as the values, the ```otu_ids``` as the labels, and the ```otu_labels``` as the hover text for the bars on the chart. 
 
+1. Code was written to create the arrays when a sample is selected from the dropdown menu:
+<br /> ![image](https://user-images.githubusercontent.com/108038989/191837078-54d78dd1-a80a-499e-9d4f-bfb2685c20d8.png)
+
+2. Code was written to create the trace object in the ```buildCharts()``` function, and it contains the following:
+- The y values are the ```otu_idsv in descending order
+- The x values are the ```sample_values``` in descending order
+- The hover text is the ```otu_labels``` in descending order.
+<br /> ![image](https://user-images.githubusercontent.com/108038989/191837443-2948fe28-210a-44a6-b390-074431a17264.png)
+
+3. Code was written to create the layout array in the ```buildCharts()``` function that creates a title for the chart:
+<br /> ![image](https://user-images.githubusercontent.com/108038989/191837603-e20d591e-5652-49ca-a24a-fbf1d159c6c5.png)
+
+4. When the dashboard is first opened in a browser, ID 940’s data is displayed in the dashboard, and the bar chart has the following: 
+- The top 10 ```sample_values``` are sorted in descending order
+- The top 10 ```sample_values``` as values
+- The ```otu_ids``` as the labels
+<br /> ![image](https://user-images.githubusercontent.com/108038989/191836161-80b3703f-fcf2-4c26-9359-c9f05c509536.png)
 
 ### Deliverable 2: Create a Bubble Chart 
 Use JavaScript, Plotly, and D3.js, create a bubble chart that will display the following when an individual’s ID is selected from the dropdown menu webpage:
@@ -17,7 +34,6 @@ Use JavaScript, Plotly, and D3.js, create a bubble chart that will display the f
 - The sample_values as the marker size.
 - The otu_ids as the marker colors.
 - The otu_labels as the hover-text values.
-
 
 ### Deliverable 3: Create a Gauge Chart 
 Use JavaScript, Plotly, and D3.js, create a gauge chart that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu.
