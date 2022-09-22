@@ -27,7 +27,6 @@ function optionChanged(newSample) {
   // Fetch new data each time a new sample is selected
   buildMetadata(newSample);
   buildCharts(newSample);
-  
 }
 
 // Demographics Panel 
@@ -125,9 +124,52 @@ function buildCharts(sample) {
     // 3. Use Plotly to plot the data with the layout.
     Plotly.newPlot("bubble", bubbleData, bubbleLayout); 
     
+    // -----------------------------------
+    // Deliverable 3: Create a Gauge Chart
+    // -----------------------------------
 
+    // 1. Create a variable that filters the metadata array for the object with the desired sample number.
+    var metadata = data.metadata;
+    var metadataArray = metadata.filter(sampleObj => sampleObj.id == sample);  
+
+    // 2. Create a variable that holds the first sample in the metadata array.
+    var metadataResults = metadataArray[0];
+    console.log(metadataResults);
+
+    // 3. Create a variable that holds the washing frequency.
+    var washFreq = metadataResults.wfreq;
+    console.log(washFreq);
+   
+    // 4. Create the trace for the gauge chart.
+    var gaugeData = [{
+      title: {text: "<b> Belly Button Washing Frequency </b> <br></br> Scrubs Per Week"},
+      value: washFreq,
+      type: "indicator",
+      mode: "gauge+number",
+      
+      tickmode: 'linear',
+      gauge: {
+        axis: {range: [null, 10], dtick: 2, tick0: 0},
+        bar: {color: "black"},
+        bgcolor: "white",
+        borderwidth: 2,
+        bordercolor: "black",
+        steps: [
+          {range: [0, 2], color: "red"},
+          {range: [2, 4], color: "orange"},
+          {range: [4, 6], color: "yellow"},
+          {range: [6, 8], color: "lightgreen"},
+          {range: [8, 10], color: "green"},
+        ]},
+    }];
+    
+    // 5. Create the layout for the gauge chart.
+    var gaugeLayout = { 
+      automargin: true
+    };
+
+    // 6. Use Plotly to plot the gauge data and layout.
+    Plotly.newPlot("gauge", gaugeData, gaugeLayout);
 
   });
 }
-
-
