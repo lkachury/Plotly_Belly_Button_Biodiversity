@@ -28,12 +28,24 @@ Using JavaScript, Plotly, and D3.js, a horizontal bar was created chart to displ
 <br /> ![image](https://user-images.githubusercontent.com/108038989/191836161-80b3703f-fcf2-4c26-9359-c9f05c509536.png)
 
 ### Deliverable 2: Create a Bubble Chart 
-Use JavaScript, Plotly, and D3.js, create a bubble chart that will display the following when an individual’s ID is selected from the dropdown menu webpage:
-- The otu_ids as the x-axis values. 
-- The sample_values as the y-axis values.
-- The sample_values as the marker size.
-- The otu_ids as the marker colors.
-- The otu_labels as the hover-text values.
+Using JavaScript, Plotly, and D3.js, a bubble chart was created that displays the information when an individual’s ID is selected from the dropdown menu webpage. 
+
+1. The code for the trace object in the ```buildCharts()``` function does the following:
+- Sets the ```otu_ids``` as the x-axis values
+- Sets the ```sample_values``` as the y-axis values
+- Sets the ```otu_labels``` as the hover-text values
+- Sets the ```sample_values``` as the marker size
+- Sets the ```otu_ids``` as the marker colors
+
+
+2. The code for the layout in the ```buildCharts()``` function does the following:
+- Creates a title
+- Creates a label for the x-axis
+- The text for a bubble is shown when hovered over
+
+
+3. When the dashboard is first opened in a browser, ID 940’s data is displayed in the dashboard. All three charts work according to their requirements when a sample is selected from the dropdown menu: 
+<br /> 
 
 ### Deliverable 3: Create a Gauge Chart 
 Use JavaScript, Plotly, and D3.js, create a gauge chart that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu.
