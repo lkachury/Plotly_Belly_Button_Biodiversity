@@ -28,13 +28,7 @@ Using JavaScript, Plotly, and D3.js, a horizontal bar was created chart to displ
 <br /> ![image](https://user-images.githubusercontent.com/108038989/191836161-80b3703f-fcf2-4c26-9359-c9f05c509536.png)
 
 ### Deliverable 2: Create a Bubble Chart 
-Using JavaScript, Plotly, and D3.js, a bubble chart was created that displays the following when an individual’s ID is selected from the dropdown menu webpage:
-- The ```otu_ids``` as the x-axis values. 
-- The ```sample_values``` as the y-axis values.
-- The ```sample_values``` as the marker size.
-- The ```otu_ids``` as the marker colors.
-- The ```otu_labels``` as the hover-text values.
-
+Using JavaScript, Plotly, and D3.js, a bubble chart was created that displays the information when an individual’s ID is selected from the dropdown menu webpage. 
 
 1. The code for the trace object in the ```buildCharts()``` function does the following:
 - Sets the ```otu_ids``` as the x-axis values
