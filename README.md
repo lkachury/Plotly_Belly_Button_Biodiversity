@@ -4,7 +4,22 @@
 ## Overview 
 The partially completed dashboard displays demographic information but now needs to visualize the bacterial data for each volunteer. Specifically, volunteers should be able to identify the top 10 bacterial species in their belly buttons. That way, if Improbable Beef identifies a species as a candidate to manufacture synthetic beef, the volunteers will be able to identify whether that species is found in their navel.
 
+## Resources
+### Data Source 
+- [samples.json](https://github.com/lkachury/Plotly_Belly_Button_Biodiversity/blob/main/samples.json) file
+
+### Software
+- Visual Studio Code 1.69
+- JavaScript and HTML
+- Bootstrap 3 and CSS
+- Chrome Developer Tools
+- D3 (Data Driven Document) Javascript library
+
 ## Results
+For reference: 
+- The complete [index.html](https://github.com/lkachury/Plotly_Belly_Button_Biodiversity/blob/main/index.html) file used to build the webpage
+- The complete [charts.js](https://github.com/lkachury/Plotly_Belly_Button_Biodiversity/blob/main/charts.js) file used to build the graphs in the webpage
+- The complete [style.css](https://github.com/lkachury/Plotly_Belly_Button_Biodiversity/blob/main/static/css/style.css) file used to style the webpage
 
 ### Deliverable 1: Create a Horizontal Bar Chart 
 Using JavaScript, Plotly, and D3.js, a horizontal bar was created chart to display the top 10 bacterial species (OTUs) when an individual’s ID is selected from the dropdown menu on the webpage. The horizontal bar chart displays the ```sample_values``` as the values, the ```otu_ids``` as the labels, and the ```otu_labels``` as the hover text for the bars on the chart. 
@@ -66,12 +81,15 @@ Using JavaScript, Plotly, and D3.js, a gauge chart was created that displays the
 Use HTML and Bootstrap to customize the webpage for the dashboard.
 
 1. The webpage has three customizations: 
-- The first customization 
-- The second customization 
-- The thirds customization 
+- The first customization was adding an image to the jumbotron: <br /> ![image](https://user-images.githubusercontent.com/108038989/191893528-0b052391-00f7-4f10-92b5-171166c38baa.png)
+
+- The second customization was adding some background color: <br /> ![image](https://user-images.githubusercontent.com/108038989/191893819-b88731ba-94f5-4d62-85d1-0c3f2c050f68.png) <br /> ![image](https://user-images.githubusercontent.com/108038989/191893796-ba6282e7-a30b-4246-8ff7-986dec3ad2b8.png) <br /> and then adding a variety of compatible colors to the webpage: <br /> ![image](https://user-images.githubusercontent.com/108038989/191894000-f04da142-8fb3-4489-8dd1-e219f321c5ad.png) <br /> ![image](https://user-images.githubusercontent.com/108038989/191894090-8246ce1e-c281-4e7b-8972-a6baa30b371f.png)
+
+- The third customization was making the webpage mobile-responsive:
+<br /> ![image](https://user-images.githubusercontent.com/108038989/191894543-d327dc80-863b-4ea9-8365-e432723879c5.png)
 
 2. When the dashboard is first opened in a browser, ID 940’s data is displayed in the dashboard, and all three charts are working according to the requirements when a sample is selected from the dropdown menu: 
+<br /> ![image](https://user-images.githubusercontent.com/108038989/191893414-cc47b441-3664-4364-b817-c0cd7328eca7.png)
 
 ## Summary
 The web app was deployed to my GitHub pages: https://lkachury.github.io/Plotly_Belly_Button_Biodiversity/
-
