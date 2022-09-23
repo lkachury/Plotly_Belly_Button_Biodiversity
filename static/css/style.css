@@ -1,6 +1,6 @@
 body {
 
-    color: #174d66;
+    color: #d9e5eb;
   }
   
 .jumbotron {
@@ -10,14 +10,14 @@ body {
     }
 
 .well {
-    background-color: rgb(112, 161, 204);
+    background-color: rgb(168, 191, 211);
     font-family:'Calibri';
     font-weight: 90;
     font-size: smaller;
     }
     
 .panel {
-    background-color: rgb(112, 161, 204);
+    background-color: rgb(168, 191, 211);
     font-family:'Calibri';
     font-weight: 90;
     }

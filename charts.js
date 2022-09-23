@@ -93,7 +93,7 @@ function buildCharts(sample) {
     // 9. Create the layout for the bar chart. 
     var barLayout = {
       title: 'Top 10 Bacteria Cultures Found',
-      titlefont: {"size": 20},
+      font: {"size": 20},
     };
     // 10. Use Plotly to plot the data with the layout. 
     Plotly.newPlot("bar", barData, barLayout);
@@ -118,7 +118,7 @@ function buildCharts(sample) {
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
       title: 'Bacteria Cultures Per Sample',
-      titlefont: {"size": 20},
+      font: {"size": 20},
       xaxis: {title: "OTU ID"},
       hovermode: "closest",  
     };
@@ -163,8 +163,7 @@ function buildCharts(sample) {
     
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
-      title: {text: "Belly Button Washing Frequency"},
-      titlefont: {"size": 20},
+      title: {text: "Belly Button Washing Frequency", font: {"size": 20}},
     };
 
     // 6. Use Plotly to plot the gauge data and layout.
