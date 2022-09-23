@@ -16,7 +16,7 @@ The partially completed dashboard displays demographic information but now needs
 - D3 (Data Driven Document) Javascript library
 
 ## Results
-For reference: 
+For Reference: 
 - The complete [index.html](https://github.com/lkachury/Plotly_Belly_Button_Biodiversity/blob/main/index.html) file used to build the webpage
 - The complete [charts.js](https://github.com/lkachury/Plotly_Belly_Button_Biodiversity/blob/main/charts.js) file used to build the graphs in the webpage
 - The complete [style.css](https://github.com/lkachury/Plotly_Belly_Button_Biodiversity/blob/main/static/css/style.css) file used to style the webpage
