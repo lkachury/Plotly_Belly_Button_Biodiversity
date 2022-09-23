@@ -3,24 +3,21 @@ body {
     color: #174d66;
   }
   
-  .jumbotron {
+.jumbotron {
     background-image: url("../images/lab.png");
     background-size: 100% 100%;
     text-align: center;
     }
 
-
-
-.jumbotron {
-    background-image: url('../Images/Laboratory.png');
-    background-size: 100% 100%;
-    text-align: center;
-    color: aliceblue;
-}
-
 .well {
-    background-color: aliceblue;
+    background-color: rgb(112, 161, 204);
     font-family:'Calibri';
     font-weight: 90;
     font-size: smaller;
-}
+    }
+    
+.panel {
+    background-color: rgb(112, 161, 204);
+    font-family:'Calibri';
+    font-weight: 90;
+    }
