@@ -57,10 +57,10 @@ Using JavaScript, Plotly, and D3.js, a gauge chart was created that displays the
 - The indicator shows the level for the washing frequency on the gauge.
 - The gauge is added to the dashboard.
 - The gauge fits in the margin of the ```<div>``` element.
-<br /> 
+<br /> ![image](https://user-images.githubusercontent.com/108038989/191885267-cbb1a5f0-93da-4bdb-8252-9fef7a743f5b.png)
 
 2. When the webpage loads, the bar and bubble chart are working according to the requirements in Deliverable 1 and 2, respectively, and the gauge chart is working according to the requirements listed for this Deliverable:
-<br /> 
+<br /> ![image](https://user-images.githubusercontent.com/108038989/191885307-60879ca0-1d1e-4f28-adcb-f2d7402df1cb.png)
 
 ### Deliverable 4: Customize the Dashboard
 Use HTML and Bootstrap to customize the webpage for the dashboard.
