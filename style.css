@@ -1,0 +1,26 @@
+body {
+
+    color: #174d66;
+  }
+  
+  .jumbotron {
+    background-image: url("../images/lab.png");
+    background-size: 100% 100%;
+    text-align: center;
+    }
+
+
+
+.jumbotron {
+    background-image: url('../Images/Laboratory.png');
+    background-size: 100% 100%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.well {
+    background-color: aliceblue;
+    font-family:'Calibri';
+    font-weight: 90;
+    font-size: smaller;
+}
